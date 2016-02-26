@@ -40,6 +40,7 @@ public class AtendimentoFacade {
 		op1.setCategoria("Fixo");
 		op1.setCodigo(25);
 		op1.setNome("GVT");	
+		op1.setPreco(5.6);
 		listaOperadora.add(op1);
 		
 		Operadora op2 = new Operadora();
