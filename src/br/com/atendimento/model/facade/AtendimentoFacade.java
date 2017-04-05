@@ -120,18 +120,18 @@ public class AtendimentoFacade {
 		return listaOperadora;		
 	}
 	
-	@POST
+	/*@POST
 	@Path("/contatos")
 	public void salvar(Contato contato) {
 		listaContatos.add(contato);
-	}
+	}*/
 		
 
-	/*@POST
+	@POST
 	@Path("/")
 	public void salvar(Atendimento atendimento) {
 		service.salvar(atendimento);
-	}*/
+	}
 
 	@DELETE
 	@Path("/{protocolo}")

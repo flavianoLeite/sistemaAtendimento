@@ -32,7 +32,7 @@ public class SimpleCORSFilter implements Filter {
     response.setHeader("Content-Type", "text/html;charset=utf-8");
     
 
-    chain.doFilter(req, resp);
+    chain.doFilter(req, response);
   }
 
   @Override
